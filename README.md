@@ -1,13 +1,16 @@
 ### BinaryTree
+* [Find its maximum depth.](./src/com/ds/lists/leetcode/q104/MaxDepthOfTree.md)
 * [Path Sum - 1](./src/com/ds/tree/leetcode/q112/HasPathSumRootToLeaf.md)
 
 ### Easy
+* [Find its maximum depth.](./src/com/ds/lists/leetcode/q104/MaxDepthOfTree.md)
 * [Merge Two Sorted Lists.](./src/com/ds/lists/leetcode/q21/MergeTwoSortedLists.md)
 * [Path Sum - 1](./src/com/ds/tree/leetcode/q112/HasPathSumRootToLeaf.md)
 * [Two sum - return indices of numbers in given array that add up to target number.](./src/com/ds/tree/leetcode/q1/TwoSum.md)
 
 ### Leetcode
 * [Check if given number is palindrome.](./src/com/others/numbers/leetcode/q9/PalindromeNumber.md)
+* [Find its maximum depth.](./src/com/ds/lists/leetcode/q104/MaxDepthOfTree.md)
 * [Merge Two Sorted Lists.](./src/com/ds/lists/leetcode/q21/MergeTwoSortedLists.md)
 * [Path Sum - 1](./src/com/ds/tree/leetcode/q112/HasPathSumRootToLeaf.md)
 * [Two sum - return indices of numbers in given array that add up to target number.](./src/com/ds/tree/leetcode/q1/TwoSum.md)
