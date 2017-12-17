@@ -6,6 +6,6 @@ import lombok.Data;
 @AllArgsConstructor
 @Data
 public class DListNode {
-    private int val;
-    private DListNode next, prev;
+    public int val;
+    public DListNode next, prev;
 }

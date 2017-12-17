@@ -10,8 +10,8 @@ import lombok.NonNull;
 @Data
 @AllArgsConstructor
 public class ListNode {
-    private int val;
-    private ListNode next;
+    public int val;
+    public ListNode next;
 
     /**
      * Make a Linked list out of given array of integers.
