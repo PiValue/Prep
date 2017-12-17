@@ -1,6 +1,6 @@
 ---
 title: "Check if given number is palindrome."
-tags: Leetcode, number, others
+tags: Leetcode, Number, others
 ---
 
 ### Question
