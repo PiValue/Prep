@@ -1,9 +1,9 @@
-###Easy
+### Easy
 [Merge Two Sorted Lists.](./src/com/ds/lists/leetcode/q21/README.md)
 
-###Leetcode
+### Leetcode
 [Merge Two Sorted Lists.](./src/com/ds/lists/leetcode/q21/README.md)
 
-###LinkedList
+### LinkedList
 [Merge Two Sorted Lists.](./src/com/ds/lists/leetcode/q21/README.md)
 

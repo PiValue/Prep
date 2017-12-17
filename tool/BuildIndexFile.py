@@ -54,7 +54,7 @@ def generateLine(fileinfo):
 def generateIndexFile(tagsDictionary):
     lines = []
     for tag in sorted(tagsDictionary):
-        lines.append("###" + tag + "\n")
+        lines.append("### " + tag + "\n")
         tagsDictionary[tag].sort(key = lambda x: x.title)
         for fileinfo in tagsDictionary[tag]:
             lines.append(generateLine(fileinfo))
