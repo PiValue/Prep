@@ -74,7 +74,7 @@ for fpath in markdownFiles:
         mappedByTag[tag].append(FileInfo(fpath = fpath, title = title, tags = tags))
 
 lines = generateIndexFile(mappedByTag)
-fp = open("index.md", "w")
+fp = open("README.md", "w")
 for line in lines:
     fp.write(line)
 fp.close()
