@@ -48,7 +48,7 @@ def getFileMetadata(fpath):
     return (getTitle(metadataLines), getTags(metadataLines))
 
 def generateLine(fileinfo):
-    return "[" + fileinfo.title + "]" + "(" + fileinfo.fpath + ")" + "\n"
+    return "* [" + fileinfo.title + "]" + "(" + fileinfo.fpath + ")" + "\n"
 
 # Generate by sorting keys and again the list under that key, so we generate a consistent output.
 def generateIndexFile(tagsDictionary):
