@@ -92,7 +92,7 @@ class Solution {
 
 ### Solution
 #### Official
-```
+```java
 class Solution {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         // maintain an unchanging reference to node ahead of the return node.
