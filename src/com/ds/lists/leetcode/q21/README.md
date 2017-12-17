@@ -8,7 +8,7 @@ Merge two sorted linked lists and return it as a new list. The new list should b
 
 ### Links
 * [Question link](https://leetcode.com/problems/merge-two-sorted-lists/description/)
-* [Code](../MergeTwoSortedLists.java)
+* [Code](./MergeTwoSortedLists.java)
 * [Official solution](https://leetcode.com/problems/merge-two-sorted-lists/solution/)
 * [Discussion](https://discuss.leetcode.com/category/29/merge-two-sorted-lists)
 
