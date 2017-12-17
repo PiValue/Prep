@@ -3,6 +3,7 @@
 import os
 import sys
 import collections
+from sets import Set
 
 inputDirectory = "./"   # Hard coding to current directory.
 
@@ -65,16 +66,22 @@ def generateIndexFile(tagsDictionary):
 # Hardcoded start path
 markdownFiles = getAllMarkdownFiles("./src/")
 
+allTags = Set()
+
 mappedByTag = collections.OrderedDict()
 for fpath in markdownFiles:
     (title, tags) = getFileMetadata(fpath)
     for tag in tags:
+        allTags.add(tag)
         if tag not in mappedByTag:
             mappedByTag[tag] = []
         mappedByTag[tag].append(FileInfo(fpath = fpath, title = title, tags = tags))
 
 lines = generateIndexFile(mappedByTag)
 fp = open("README.md", "w")
+fp.write("## Summary\n")
+fp.write("There are " + str(len(markdownFiles)) + " questions and " + str(len(allTags)) + " tags.\n\n")
+fp.write("## Questions\n")
 for line in lines:
     fp.write(line)
 fp.close()

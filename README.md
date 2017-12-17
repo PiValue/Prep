@@ -1,3 +1,7 @@
+## Summary
+There are 5 questions and 7 tags.
+
+## Questions
 ### BinaryTree
 * [Find its maximum depth.](./src/com/ds/lists/leetcode/q104/MaxDepthOfTree.md)
 * [Path Sum - 1](./src/com/ds/tree/leetcode/q112/HasPathSumRootToLeaf.md)
