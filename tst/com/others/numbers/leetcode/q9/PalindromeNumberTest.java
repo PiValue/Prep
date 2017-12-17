@@ -1,4 +1,4 @@
-package com.others.numbers;
+package com.others.numbers.leetcode.q9;
 
 import static org.junit.Assert.assertTrue;
 

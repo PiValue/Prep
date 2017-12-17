@@ -1,4 +1,4 @@
-package com.others.numbers;
+package com.others.numbers.leetcode.q9;
 
 public class PalindromeNumber {
     public boolean isPalindrome(int num) {
