@@ -1,6 +1,6 @@
 ---
-Name: "Merge Two Sorted Lists."
-categories: Leetcode, LinkedList, Easy
+title: "Merge Two Sorted Lists."
+tags: Leetcode, LinkedList, Easy
 ---
 
 ### Question
