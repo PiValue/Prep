@@ -5,5 +5,5 @@
 [Merge Two Sorted Lists.](./src/com/ds/lists/leetcode/q21/README.md)
 
 ### LinkedList
-[Merge Two Sorted Lists.](./src/com/ds/lists/leetcode/q21/README.md)
+[Merge Two Sorted Lists.](./src/com/ds/lists/leetcode/q21/README.md) [Easy](#Easy)
 
