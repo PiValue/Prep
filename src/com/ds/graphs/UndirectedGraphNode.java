@@ -14,10 +14,10 @@ public class UndirectedGraphNode {
 
     /**
      * Constructor.
-     * @param x
+     * @param label
      */
-    public UndirectedGraphNode(int x) {
-        label = x;
+    public UndirectedGraphNode(int label) {
+        this.label = label;
         neighbors = new ArrayList<UndirectedGraphNode>();
     }
 }
