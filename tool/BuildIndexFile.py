@@ -80,7 +80,7 @@ for fpath in markdownFiles:
 lines = generateIndexFile(mappedByTag)
 fp = open("README.md", "w")
 fp.write("## Summary\n")
-fp.write("There are " + str(len(markdownFiles)) + " questions and " + str(len(allTags)) + " tags.\n\n")
+fp.write("There are " + str(len(markdownFiles)) + " questions and " + str(len(allTags)) + " unique tags.\n\n")
 fp.write("## Questions\n")
 for line in lines:
     fp.write(line)

@@ -1,5 +1,5 @@
 ## Summary
-There are 6 questions and 7 tags.
+There are 6 questions and 7 unique tags.
 
 ## Questions
 ### BinaryTree
