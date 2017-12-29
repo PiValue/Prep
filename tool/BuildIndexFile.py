@@ -62,6 +62,12 @@ def generateIndexFile(tagsDictionary):
         lines.append("\n")
     return lines
 
+def generateAllFilesList(markdownFilesList):
+    lines = []
+    for fpath in markdownFilesList:
+        (title, tags) = getFileMetadata(fpath)
+        lines.append(generateLine(FileInfo(fpath = fpath, title = title, tags = tags)))
+    return lines
 
 # Hardcoded start path
 markdownFiles = getAllMarkdownFiles("./src/")
@@ -79,8 +85,13 @@ for fpath in markdownFiles:
 
 lines = generateIndexFile(mappedByTag)
 fp = open("README.md", "w")
+# Write out list of all files at the top.
 fp.write("## Summary\n")
 fp.write("There are " + str(len(markdownFiles)) + " questions and " + str(len(allTags)) + " unique tags.\n\n")
+for line in generateAllFilesList(markdownFiles):
+    fp.write(line)
+fp.write("\n")
+
 fp.write("## Questions\n")
 for line in lines:
     fp.write(line)

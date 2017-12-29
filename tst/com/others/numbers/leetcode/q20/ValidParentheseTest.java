@@ -4,9 +4,6 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import com.ds.lists.ListNode;
-import com.google.common.primitives.Ints;
-
 public class ValidParentheseTest {
     private ValidParentheses obj = new ValidParentheses();
 
