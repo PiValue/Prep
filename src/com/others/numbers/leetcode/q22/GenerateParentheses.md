@@ -29,7 +29,7 @@ For example, given n = 3, a solution set is:
   
 ### Code
 #### Backtracking
-```
+```java
 public class GenerateParentheses {
     public List<String> generateParenthesis(int n) {
         List<String> parens = new ArrayList<>();
